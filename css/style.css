@@ -1,0 +1,12 @@
+p {
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+.image-en-grand {
+  background-image: url("../assets/images/image.png");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  min-height: 21%;
+}
