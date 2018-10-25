@@ -4,9 +4,14 @@ p {
 }
 
 .image-en-grand {
+  margin: 0;
   background-image: url("../assets/images/image.png");
   background-size: cover;
   color: white;
   text-align: center;
-  min-height: 21%;
+}
+
+.image-en-grand h1 {
+  margin: 0;
+  padding: 100px 0;
 }
