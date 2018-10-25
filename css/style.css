@@ -1,11 +1,16 @@
 p {
   text-align: justify;
-  font-size: 1.2em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 25px;
 }
 
 .image-en-grand {
   margin: 0;
-  background-image: url("../assets/images/image.png");
+  background-image: url("../assets/images/code.jpg");
+  background-position: center center;
   background-size: cover;
   color: white;
   text-align: center;
@@ -13,5 +18,22 @@ p {
 
 .image-en-grand h1 {
   margin: 0;
-  padding: 100px 0;
+  padding: 150px 0;
+}
+
+.self-introduction {
+  margin-top: 50px;
+}
+
+.self-introduction p {
+  font-size: 1.2em;
+}
+
+.self-qualities div {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.self-qualities span {
+  font-style: italic;
 }
