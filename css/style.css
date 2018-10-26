@@ -1,6 +1,7 @@
 p {
   text-align: justify;
   font-size: 1.2em;
+  line-height: 1.75;
 }
 
 .image-en-grand {
@@ -9,4 +10,17 @@ p {
   color: white;
   text-align: center;
   min-height: 21%;
+  padding : 2em;
+  margin : 0 0 1em 0;
+}
+
+li {
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.75;
+  margin : 0.5em;
+}
+
+ul {
+  list-style-type : none;
 }
