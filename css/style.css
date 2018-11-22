@@ -1,12 +1,82 @@
 p {
   text-align: justify;
-  font-size: 1.2em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.8em;
 }
 
 .image-en-grand {
-  background-image: url("../assets/images/image.png");
+  margin: 0;
+  background-image: url("../assets/images/code.jpg");
+  background-position: center center;
   background-size: cover;
   color: white;
   text-align: center;
-  min-height: 21%;
+}
+
+.image-en-grand h1 {
+  margin: 0;
+  padding: 150px 0;
+}
+
+.self-introduction {
+  margin-top: 50px;
+}
+
+.self-introduction p {
+  font-size: 1.2em;
+}
+
+.qualities {
+  margin: 20px 0;
+}
+
+.qualities p, .qualities h2 {
+  text-align: center;
+}
+
+.mdl-navigation .self-menu {
+  line-height: 70px;
+}
+
+.mdl-navigation .self-menu .self-link {
+  display: inline-block;
+  padding: 20px;
+}
+
+.mdl-navigation .self-menu .self-link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.mdl-navigation .self-menu .self-link .self-menu--submenu {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mdl-navigation .self-menu .self-link:hover .self-menu--submenu {
+  display: block;
+}
+
+.mdl-navigation .self-menu .self-link .self-menu--submenu .self-menu--submenu--link {
+  padding: 10px;
+}
+
+.mdl-navigation .self-menu .self-link .self-menu--submenu .self-menu--submenu--link:hover {
+  background-color: #333;
+}
+
+.mdl-navigation .self-menu .self-link ul li a {
+  color: #fff;
+}
+
+.right {
+  float: right;
 }
