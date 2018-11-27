@@ -4,7 +4,9 @@ p {
 
 h2 {
   margin: 0;
+  margin-bottom: 5px;
   font-size: 1.8em;
+  line-height: 30px;
 }
 
 .image-en-grand {
@@ -31,6 +33,10 @@ h2 {
 
 .qualities {
   margin: 20px 0;
+}
+
+.qualities p {
+  margin: auto;
 }
 
 .qualities p, .qualities h2 {
@@ -79,4 +85,8 @@ h2 {
 
 .right {
   float: right;
+}
+
+.font-blue {
+  color: blue;
 }
