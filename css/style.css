@@ -87,6 +87,11 @@ h2 {
   float: right;
 }
 
+<<<<<<< HEAD
 .font-blue {
   color: blue;
+=======
+footer {
+  position: relative;
+>>>>>>> f277bbc0968e17652301ce60af372ca56c3bb39e
 }
