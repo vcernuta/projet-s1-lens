@@ -9,6 +9,10 @@ h2 {
   line-height: 30px;
 }
 
+.gras {
+  font-weight: bold;
+}
+
 .mdl-layout__header {
   background-color: #2196F3;
 }
