@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 p {
   text-align: justify;
 }
@@ -129,6 +135,6 @@ p.lastpara {
   padding-bottom: 10em;
 }
 
-mdl-mini-footer a {
+.mdl-mini-footer a {
   color: #fff;
 }
