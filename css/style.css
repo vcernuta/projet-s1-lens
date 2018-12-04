@@ -9,6 +9,10 @@ h2 {
   line-height: 30px;
 }
 
+.mdl-layout__header {
+  background-color: #2196F3;
+}
+
 .image-en-grand {
   margin: 0;
   background-image: url("../assets/images/code.jpg");
@@ -61,7 +65,7 @@ h2 {
 .mdl-navigation .self-menu .self-link .self-menu--submenu {
   display: none;
   position: absolute;
-  background-color: #000;
+  background-color: #2196F3;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -75,8 +79,12 @@ h2 {
   padding: 10px;
 }
 
-.mdl-navigation .self-menu .self-link .self-menu--submenu .self-menu--submenu--link:hover {
-  background-color: #333;
+.mdl-navigation .self-menu .self-link .self-menu--submenu:hover .self-menu--submenu--link:hover {
+  background-color: #fff;
+}
+
+.mdl-navigation .self-menu .self-link .self-menu--submenu:hover .self-menu--submenu--link:hover a {
+  color: #2196F3;
 }
 
 .mdl-navigation .self-menu .self-link ul li a {
@@ -88,11 +96,17 @@ h2 {
 }
 
 .font-blue {
-  color: blue;
+  color: #0D47A1;
 }
 
-footer {
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+.mdl-mini-footer {
   position: relative;
+  background-color: #2196F3;
 }
 
 li.article {
@@ -109,4 +123,8 @@ li.article2 {
 
 p.lastpara {
   padding-bottom: 10em;
+}
+
+mdl-mini-footer a {
+  color: #fff;
 }
