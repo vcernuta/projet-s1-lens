@@ -11,7 +11,7 @@ let frMobile = `
   <a href="../liens/presse.html" class="mdl-navigation__link">Articles de presse</a>
   <a class="mdl-navigation__link" href="../partenaires.html">Partenaires</a>
   <a class="mdl-navigation__link" href="../entreprises.html">Entreprises</a>
-  <a href="./en/index.html" class="mdl-navigation__link">Switch to English</a>
+  <a href="../../en/index.html" class="mdl-navigation__link">Switch to English</a>
   </nav>
 `
 

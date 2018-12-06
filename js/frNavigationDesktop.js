@@ -33,7 +33,7 @@ let frDesktop = `
 </li>
 
 <li class="self-link right">
-    <a href="../en/index.html">Switch to English</a>
+    <a href="../../en/index.html">Switch to English</a>
 </li>
 </ul>
 `
