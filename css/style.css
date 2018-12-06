@@ -25,12 +25,10 @@ h2 {
 
 .image-en-grand {
   margin: 0;
-  background-image: url("../assets/images/image2.png");
+  background-position: center;
   background-size: cover;
-  background-position: center center;
-  color: white;
-  text-align: center;
   width: 100%;
+  height: 300px;
 }
 
 .self-introduction {
