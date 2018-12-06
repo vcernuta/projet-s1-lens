@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
+:root {
+  --main-color: #03A9F4;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -20,7 +24,7 @@ h2 {
 }
 
 .mdl-layout__header {
-  background-color: #2196F3;
+  background-color: var(--main-color);
 }
 
 .image-en-grand {
@@ -75,7 +79,7 @@ h2 {
 .mdl-navigation .self-menu .self-link .self-menu--submenu {
   display: none;
   position: absolute;
-  background-color: #2196F3;
+  background-color: var(--main-color);
   list-style: none;
   margin: 0;
   padding: 0;
