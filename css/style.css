@@ -11,16 +11,16 @@ h2 {
 
 .image-en-grand {
   margin: 0;
-  background-image: url("../assets/images/code.jpg");
+  background-image: url("../assets/images/image2.png");
   background-position: center center;
-  background-size: cover;
   color: white;
   text-align: center;
+  height: 300px;
 }
 
 .image-en-grand h1 {
   margin: 0;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .self-introduction {
