@@ -2,142 +2,106 @@
 <html lang="fr">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="../../css/material.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../../css/style.css">
-  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../../css/material.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <meta charset="utf-8">
 
-  <title>Portail National IUT Informatique</title>
+    <title>Portail National IUT Informatique</title>
 </head>
 
 <body>
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">
-            <img class="logo" src="../../assets/images/LogoBleu-3x1.png" alt="">
-        </span>
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <ul class="self-menu">
-            <li class="self-link">
-              <a href="../../fr/index.html">Accueil</a>
-              <ul class="self-menu--submenu">
-                <li class="self-menu--submenu--link">
-                  <a href="#">Accès enseignants</a>
-                </li>
-              </ul>
-            </li>
-            <li class="self-link">
-              <a href="">Formation</a>
-              <ul class="self-menu--submenu">
-                  <li class="self-menu--submenu--link"><a href="../../fr/formation/iut.html">L'IUT</a></li>
-                  <li class="self-menu--submenu--link"><a href="../../fr/formation/departement-info.html">Département Info</a></li>
-                  <li class="self-menu--submenu--link"><a href="../../fr/formation/programme.html">Programme</a></li>
-                  <li class="self-menu--submenu--link"><a href="../../fr/formation/carte-iut.html">Carte des DUT Info</a></li>
-              </ul>
-            </li>
-            <li class="self-link">
-              <a href="">Liens</a>
-              <ul class="self-menu--submenu">
-                  <li class="self-menu--submenu--link"><a href="../../fr/liens/temoignages.html">Témoignages</a></li>
-                  <li class="self-menu--submenu--link"><a href="../../fr/liens/presse.html">Revues de presse</a></li>
-              </ul>
-            </li>
-            <li class="self-link">
-              <a href="../../fr/partenaires.html">Partenaires</a>
-            </li>
-            <li class="self-link">
-              <a href="../../fr/entreprises.html">Entreprises</a>
-            </li>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">
+                    <img class="logo" src="../../assets/images/LogoBleu-3x1.png" alt="">
+                </span>
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <!--  -->
+                    <script src="../../js/frNavigationDesktop.js"></script>
+                    <!--  -->
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <!--  -->
+            <script src="../../js/frNavigationMobile.js"></script>
+            <!--  -->
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <img src="../assets/images/image2.png" alt="" class="mdl-layout--large-screen-only image-en-grand">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col mdl-cell--8-col-tablet mdl-cell--4-offset-tablet mdl-cell--4-col-phone"></div>
+                    <div class="mdl-cell mdl-cell--8-col self-introduction mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                        <p>
+                            L'enseignement de l'informatique à l'IUT fait une large part à la dimension professionelle
+                            tout en conservant des composantes fondamentales; l'étudiant acquiert ainsi des
+                            savoirs-faires mais également des connaissances, des concepts de base et des méthodes de
+                            travail qu'il sera à même de mettre à profit en situation professionelle.
+                        </p>
 
-            <li class="self-link right">
-              <a href="../../en/index.html">Switch to English</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-      <span class="mdl-layout-title">IUT Informatique</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="../index.html">Accueil</a>
-        <a class="mdl-navigation__link" href="#">Accès enseignant</a>
-        <a class="mdl-navigation__link" href="../../fr/formation/iut.html">L'IUT</a>
-        <a href="../../fr/formation/departement-info.html" class="mdl-navigation__link">Département informatique</a>
-        <a href="../../fr/formation/programme.html" class="mdl-navigation__link">Programme</a>
-        <a href="../../fr/formation/carte-iut.html" class="mdl-navigation__link">Carte des IUT</a>
-        <a class="mdl-navigation__link" href="../../fr/liens/temoignages.html">Témoignages</a>
-        <a href="../../fr/liens/presse.html" class="mdl-navigation__link">Articles de presse</a>
-        <a class="mdl-navigation__link" href="../../fr/partenaires.html">Partenaires</a>
-        <a class="mdl-navigation__link" href="../../fr/entreprises.html">Entreprises</a>
-        <a href="../../en/index.html" class="mdl-navigation__link">Switch to English</a>
-      </nav>
+                        <p>
+                            <b>
+                                Le DUT, diplôme universitaire et professionnel (niveau L2 du schéma LMD, 120 crédits
+                                européeens) :
+                            </b>
+                        </p>
+
+                        <p>
+                            Les titulaires du DUT en informatique sont des techniciens supérieurs, capable de
+                            participer à la conception, la réalisation et la mise en oeuvre de systèmes informatiques.
+                            Ils peuvent cependant s'ils le désirent poursuivre leurs études à l'issue de ce diplôme.
+                        </p>
+
+                        <p>
+                            <b>
+                                La Licence Profesionnelle "Systèmes Informatiques et Logiciels" (SIL), diplôme de
+                                niveau L3 dans ce schéma LMD (grade de Licence, 180 crédits européeens) : <span class="font-blue">ces
+                                    pages présentent les licences professionelles</span> proposées dans les
+                                départements informatiques d'IUT.
+                            </b>
+                        </p>
+
+                        <p>
+                            Les titulaires de la licence SIL sont des spécialistes capables de participer à un projet
+                            de développement logiciel et, à terme, d'en prendre la complète responsabilité.
+                        </p>
+
+                        <p>
+                            <b>
+                                La validation des acquis :
+                            </b>
+                        </p>
+
+                        <p>
+                            Il est également possible de faire reconnaître son expérience (professionelle ou non) afin
+                            d'obtenir un diplôme, un titre ou un certificat de qualification professionelle.
+                            Vous pouvez visiter le site du gouvernement concernant la <a href="">validation des acquis
+                                de l'expérience (VAE)</a>.
+                        </p>
+
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col"></div>
+                </div>
+            </div>
+
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">
+                        <img class="logo" src="../../assets/images/LogoBleu-3x1.png" class="logo">
+                    </div>
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Aide</a></li>
+                        <li><a href="#">Confidentialité et termes</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
     </div>
-    <main class="mdl-layout__content">
-      <div class="page-content">
-        <div class="image-en-grand">
-          <h1></h1>
-        </div>
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--8-col-tablet mdl-cell--4-offset-tablet mdl-cell--4-col-phone"></div>
-          <div class="mdl-cell mdl-cell--8-col self-introduction mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-            <p>
-                L'enseignement de l'informatique à l'IUT fait une large part à la dimension professionelle tout en conservant des composantes fondamentales; l'étudiant acquiert ainsi des savoirs-faires mais également des connaissances, des concepts de base et des méthodes de travail qu'il sera à même de mettre à profit en situation professionelle.
-            </p>
 
-            <p>
-                <b>
-                    Le DUT, diplôme universitaire et professionnel (niveau L2 du schéma LMD, 120 crédits européeens) :
-                </b>
-            </p>
-
-            <p>
-                Les titulaires du DUT en informatique sont des techniciens supérieurs, capable de participer à la conception, la réalisation et la mise en oeuvre de systèmes informatiques.
-                Ils peuvent cependant s'ils le désirent poursuivre leurs études à l'issue de ce diplôme. 
-            </p>
-
-            <p>
-                <b>
-                    La Licence Profesionnelle "Systèmes Informatiques et Logiciels" (SIL), diplôme de niveau L3 dans ce schéma LMD (grade de Licence, 180 crédits européeens) : <span class="font-blue">ces pages présentent les licences professionelles</span> proposées dans les départements informatiques d'IUT.
-                </b>
-            </p>
-
-            <p>
-                Les titulaires de la licence SIL sont des spécialistes capables de participer à un projet de développement logiciel et, à terme, d'en prendre la complète responsabilité.
-            </p>
-
-            <p>
-                <b>
-                    La validation des acquis : 
-                </b>
-            </p>
-
-            <p>
-                Il est également possible de faire reconnaître son expérience (professionelle ou non) afin d'obtenir un diplôme, un titre ou un certificat de qualification professionelle.
-                Vous pouvez visiter le site du gouvernement concernant la <a href="">validation des acquis de l'expérience (VAE)</a>.
-            </p>
-
-          </div>
-          <div class="mdl-cell mdl-cell--4-col"></div>
-        </div>
-      </div>
-
-      <footer class="mdl-mini-footer">
-        <div class="mdl-mini-footer__left-section">
-          <div class="mdl-logo">
-              <img class="logo" src="../../assets/images/LogoBleu-3x1.png" class="logo">
-          </div>
-          <ul class="mdl-mini-footer__link-list">
-            <li><a href="#">Aide</a></li>
-            <li><a href="#">Confidentialité et termes</a></li>
-          </ul>
-        </div>
-      </footer>
-    </main>
-  </div>
-
-  <script src="../../js/material.min.js"></script>
+    <script src="../../js/material.min.js"></script>
 </body>
 
 </html>
