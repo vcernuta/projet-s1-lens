@@ -11,67 +11,22 @@
 
 <body>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header" style="background-color: black; color: white">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">IUT Informatique</span>
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <ul class="self-menu">
-            <li class="self-link">
-              <a href="../fr/index.html">Accueil</a>
-              <ul class="self-menu--submenu">
-                <li class="self-menu--submenu--link">
-                  <a href="">Accès enseignants</a>
-                </li>
-              </ul>
-            </li>
-            <li class="self-link">
-              <a href="">Présentation</a>
-            </li>
-            <li class="self-link">
-              <a href="">Formation</a>
-              <ul class="self-menu--submenu">
-                  <li class="self-menu--submenu--link"><a href="">L'IUT</a></li>
-                  <li class="self-menu--submenu--link"><a href="">Département Info</a></li>
-                  <li class="self-menu--submenu--link"><a href="">Programme</a></li>
-                  <li class="self-menu--submenu--link"><a href="">Carte des DUT Info</a></li>
-              </ul>
-            </li>
-            <li class="self-link">
-              <a href="">Liens</a>
-              <ul class="self-menu--submenu">
-                  <li class="self-menu--submenu--link"><a href="">Témoignages</a></li>
-                  <li class="self-menu--submenu--link"><a href="">Revues de presse</a></li>
-              </ul>
-            </li>
-            <li class="self-link">
-              <a href="">Partenaires</a>
-            </li>
-            <li class="self-link">
-              <a href="">Entreprises</a>
-            </li>
-
-            <li class="self-link right">Switch to French version</li>
-          </ul>
-        </nav>
-      </div>
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">
+                <img class="logo" src="../assets/images/LogoBleu-3x1.png" alt="">
+            </span>
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <script src="../js/enNavigationDesktop.js"></script>
+            </nav>
+        </div>
     </header>
     <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-      <span class="mdl-layout-title">IUT Informatique</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="../fr/index.html">Accueil</a>
-        <a class="mdl-navigation__link" href="">Présentation</a>
-        <a class="mdl-navigation__link" href="">Formation</a>
-        <a class="mdl-navigation__link" href="">Liens</a>
-        <a class="mdl-navigation__link" href="">Partenaires</a>
-        <a class="mdl-navigation__link" href="">Accès enseignants</a>
-      </nav>
+        <script src="../js/enNavigationMobile.js"></script>
     </div>
     <main class="mdl-layout__content">
       <div class="page-content">
-        <div class="image-en-grand">
-          <h1></h1>
-        </div>
+        <img src="../assets/images/image2.png" alt="" class="mdl-layout--large-screen-only image-en-grand">
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--2-col mdl-cell--8-col-tablet mdl-cell--4-offset-tablet mdl-cell--4-col-phone"></div>
           <div class="mdl-cell mdl-cell--8-col self-introduction mdl-cell--8-col-tablet mdl-cell--4-col-phone">
@@ -103,7 +58,7 @@
             </div>
           </footer>
     </main>
-
+  </div>
   <script src="../js/material.min.js"></script>
 </body>
 
