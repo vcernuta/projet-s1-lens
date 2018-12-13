@@ -141,9 +141,27 @@ li.article {
 }
 
 li.article2 {
-  display: inline-block;
-  margin-right: 3.5em;
+  display: inline;
+  margin : 1.5%;
   padding-bottom: 1.5em;
+}
+
+.article2 a {
+  text-align: center;
+}
+.article3 a img {
+  width: 100%;
+  margin: 0% auto;
+}
+.mdl-layout--small-screen-only .article3 a img {
+  width: 50%;
+  text-align: center;
+}
+
+.mdl-layout--small-screen-only .article3{
+  margin-left :auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 p.lastpara {
@@ -152,4 +170,15 @@ p.lastpara {
 
 li.lastpara {
   padding-bottom: 2em;
+}
+
+li.article3 {
+  margin : 1.5% 1.5% 1.5% -15%;
+  padding-bottom: 1.5em;
+  list-style: none;
+}
+
+ul li a .image {
+  width: 5%;
+  margin-left: 120px;
 }
