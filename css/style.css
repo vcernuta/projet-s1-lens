@@ -23,6 +23,10 @@ h2 {
   line-height: 30px;
 }
 
+.center {
+  text-align: center;
+}
+
 .gras {
   font-weight: bold;
 }
@@ -39,7 +43,7 @@ h2 {
   height: 150px;
 }
 
-.self-introduction {
+.mdl-card {
   position: relative;
   margin-top: -80px;
   margin-bottom: 20px;
@@ -91,6 +95,7 @@ h2 {
 
 .mdl-navigation .self-menu .self-link:hover .self-menu--submenu {
   display: block;
+  border-radius: 5px;
 }
 
 .mdl-navigation .self-menu .self-link .self-menu--submenu .self-menu--submenu--link {
@@ -152,4 +157,14 @@ p.lastpara {
 
 li.lastpara {
   padding-bottom: 2em;
+}
+
+.mdl-grid {
+  clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+  .mdl-card {
+    margin-top: 20px;
+  }
 }
