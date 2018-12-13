@@ -153,3 +153,22 @@ p.lastpara {
 li.lastpara {
   padding-bottom: 2em;
 }
+
+#carte {
+  width: 100%;
+  height: 700px;
+}
+
+.imgProg {
+  text-align: center;
+}
+
+.prog {
+  width: 100%;
+  height: 1000px;
+}
+
+.survey {
+  width: 100%;
+  height: 700px;
+}
