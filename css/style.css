@@ -37,6 +37,8 @@ h2 {
 
 .self-introduction p {
   font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .qualities {
@@ -134,4 +136,8 @@ li.article2 {
 
 p.lastpara {
   padding-bottom: 9em;
+}
+
+.mdl-card {
+  width: 100%;
 }
