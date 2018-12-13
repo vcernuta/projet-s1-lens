@@ -137,6 +137,9 @@ li.article2 {
 }
 
 p.lastpara {
-  padding-bottom: 5em;
+  padding-bottom: 2em;
 }
 
+li.lastpara {
+  padding-bottom: 2em;
+}
