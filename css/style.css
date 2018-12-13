@@ -28,7 +28,7 @@ h2 {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 300px;
+  height: 150px;
 }
 
 .self-introduction {
@@ -37,8 +37,6 @@ h2 {
 
 .self-introduction p {
   font-size: 1.2em;
-  line-height: 1.5;
-  margin-bottom: 20px;
 }
 
 .qualities {
@@ -135,9 +133,6 @@ li.article2 {
 }
 
 p.lastpara {
-  padding-bottom: 9em;
+  padding-bottom: 5em;
 }
 
-.mdl-card {
-  width: 100%;
-}
