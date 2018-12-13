@@ -2,57 +2,59 @@
 <html lang="fr">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="../../css/material.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../../css/style.css">
-  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../../css/material.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 
-  <title>Portail National IUT Informatique</title>
+    <title>Portail National IUT Informatique</title>
 </head>
 
 <body>
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">
-          <img class="logo" src="../../assets/images/LogoBleu-3x1.png" alt="">
-        </span>
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <script src="../../js/frNavigationDesktop.js"></script>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-      <script src="../../js/frNavigationMobile.js"></script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">
+                    <img class="logo" src="../../assets/images/LogoBleu-3x1.png" alt="">
+                </span>
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <script src="../../js/frNavigationDesktop.js"></script>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <script src="../../js/frNavigationMobile.js"></script>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <img src="../../assets/images/image2.png" alt="" class="image-en-grand">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col mdl-cell--8-col-tablet mdl-cell--2-offset-tablet mdl-cell--2-col-phone"></div>
+                    <div class="mdl-cell mdl-cell--8-col self-introduction mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                        <iframe id="carte" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+                        <p><a href="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041">Voir en plein écran</a></p>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col"></div>
+                </div>
+            </div>
+
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">
+                        <img src="../../assets/images/LogoBleu-3x1.png" alt="" class="logo">
+                    </div>
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Aide</a></li>
+                        <li><a href="#">Confidentialité et termes</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
     </div>
-    <main class="mdl-layout__content">
-      <div class="page-content">
-        <img src="../../assets/images/image2.png" alt="" class="image-en-grand">
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--8-col-tablet mdl-cell--4-offset-tablet mdl-cell--4-col-phone"></div>
-          <div class="mdl-cell mdl-cell--8-col self-introduction mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-            <iframe id="carte" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041">Voir en plein écran</a></p>
-          </div>
-          <div class="mdl-cell mdl-cell--4-col"></div>
-        </div>
-      </div>
 
-      <footer class="mdl-mini-footer">
-        <div class="mdl-mini-footer__left-section">
-          <div class="mdl-logo">
-            <img src="../../assets/images/LogoBleu-3x1.png" alt="" class="logo">
-          </div>
-          <ul class="mdl-mini-footer__link-list">
-            <li><a href="#">Aide</a></li>
-            <li><a href="#">Confidentialité et termes</a></li>
-          </ul>
-        </div>
-      </footer>
-    </main>
-  </div>
-
-  <script src="../../js/material.min.js"></script>
+    <script src="../../js/material.min.js"></script>
 </body>
 
 </html>

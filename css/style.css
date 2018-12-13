@@ -98,9 +98,10 @@ h2 {
 .mdl-navigation .self-menu .self-link .self-menu--submenu {
   display: none;
   position: absolute;
-  background-color: var(--main-color);
+  background-color: #29B6F6;
   list-style: none;
   margin: 0;
+  margin-top: -5px;
   padding: 0;
 }
 
