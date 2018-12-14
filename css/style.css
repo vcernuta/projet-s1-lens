@@ -53,10 +53,6 @@ h2 {
   box-shadow: 0 0 1px 0 #000;
 }
 
-.self-introduction p {
-  font-size: 1.2em;
-}
-
 .qualities {
   margin: 20px 0;
 }
@@ -157,34 +153,4 @@ p.lastpara {
 
 li.lastpara {
   padding-bottom: 2em;
-}
-
-<<<<<<< HEAD
-.mdl-grid {
-  clear: both;
-}
-
-@media screen and (max-width: 1000px) {
-  .mdl-card {
-    margin-top: 20px;
-  }
-=======
-#carte {
-  width: 100%;
-  height: 700px;
-}
-
-.imgProg {
-  text-align: center;
-}
-
-.prog {
-  width: 100%;
-  height: 1000px;
-}
-
-.survey {
-  width: 100%;
-  height: 700px;
->>>>>>> 9c410278c32847404150ade5fbe982d55156d401
 }
