@@ -5,15 +5,18 @@
 }
 
 body {
-  background-color: #f5f5f5;
+    position: relative;
+    background-color: #f5f5f5;
 }
 
 * {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 p {
   line-height: 1.5;
+  font-size: 1.1em;
 }
 
 h2 {
@@ -23,8 +26,20 @@ h2 {
   line-height: 30px;
 }
 
+.center {
+  text-align: center;
+}
+
 .gras {
   font-weight: bold;
+}
+
+.right {
+    float: right;
+  }
+  
+.font-blue {
+    color: #0091EA;
 }
 
 .mdl-layout__header {
@@ -39,7 +54,7 @@ h2 {
   height: 150px;
 }
 
-.self-introduction {
+.mdl-card {
   position: relative;
   margin-top: -80px;
   margin-bottom: 20px;
@@ -83,14 +98,16 @@ h2 {
 .mdl-navigation .self-menu .self-link .self-menu--submenu {
   display: none;
   position: absolute;
-  background-color: var(--main-color);
+  background-color: #29B6F6;
   list-style: none;
   margin: 0;
+  margin-top: -5px;
   padding: 0;
 }
 
 .mdl-navigation .self-menu .self-link:hover .self-menu--submenu {
   display: block;
+  border-radius: 5px;
 }
 
 .mdl-navigation .self-menu .self-link .self-menu--submenu .self-menu--submenu--link {
@@ -109,14 +126,6 @@ h2 {
   color: #fff;
 }
 
-.right {
-  float: right;
-}
-
-.font-blue {
-  color: #0091EA;
-}
-
 .logo {
   width: 150px;
   height: 50px;
@@ -125,7 +134,6 @@ h2 {
 .mdl-mini-footer {
   position: relative;
   bottom: 0;
-  left: 0;
   width: 100%;
   background-color: var(--main-color);
 }
@@ -133,6 +141,14 @@ h2 {
 .mdl-mini-footer a {
     color: #fff;
   }
+
+@media screen and (max-width: 1000px) {
+    .mdl-card {
+        margin-top: 20px;
+    }
+}
+
+
 
 li.article {
   display: inline-block;
@@ -146,6 +162,7 @@ li.article2 {
   padding-bottom: 1.5em;
 }
 
+<<<<<<< HEAD
 .article2 a {
   text-align: center;
 }
@@ -168,6 +185,9 @@ p.lastpara {
   padding-bottom: 2em;
 }
 
+=======
+p.lastpara,
+>>>>>>> master
 li.lastpara {
   padding-bottom: 2em;
 }
