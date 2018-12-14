@@ -64,10 +64,6 @@ h2 {
   box-shadow: 0 0 1px 0 #000;
 }
 
-.self-introduction p {
-  font-size: 1.2em;
-}
-
 .qualities {
   margin: 20px 0;
 }
@@ -187,6 +183,8 @@ p.lastpara {
 p.lastpara,
 li.lastpara {
   padding-bottom: 2em;
+<<<<<<< HEAD
+=======
 }
 
 li.article3 {
@@ -217,4 +215,12 @@ ul li a .image {
 .survey {
   width: 100%;
   height: 700px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> refs/remotes/github/master
+=======
+>>>>>>> master
+>>>>>>> adf0af5712f7b9ee324b408bb7b88a39a602d954
+>>>>>>> master
 }
