@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-:root {
-  --main-color: #03A9F4;
-}
-
 body {
     position: relative;
     background-color: #f5f5f5;
@@ -43,7 +39,7 @@ h2 {
 }
 
 .mdl-layout__header {
-  background-color: var(--main-color);
+  background-color: #03A9F4;
 }
 
 .image-en-grand {
@@ -141,7 +137,7 @@ h2 {
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: var(--main-color);
+  background-color: #03A9F4;
 }
 
 .mdl-mini-footer a {
@@ -222,7 +218,7 @@ li.lastpara {
   height: 700px;
 }
 
-.imgProg {
+.centered {
   text-align: center;
 }
 
