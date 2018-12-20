@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-:root {
-  --main-color: #03A9F4;
+html,
+body {
+  height: 100%;
 }
 
 body {
     position: relative;
+    flex-direction: column;
+    display: flex;
     background-color: #f5f5f5;
 }
 
@@ -59,7 +62,7 @@ h2 {
   margin-top: -80px;
   margin-bottom: 20px;
   background-color: #ccc;
-  padding: 20px;
+  padding: 40px;
   background-color: #fff;
   box-shadow: 0 0 1px 0 #000;
 }
@@ -94,7 +97,7 @@ h2 {
 .mdl-navigation .self-menu .self-link .self-menu--submenu {
   display: none;
   position: absolute;
-  background-color: #2196F3;
+  background-color: #01579B;
   list-style: none;
   margin: 0;
   margin-top: -5px;
@@ -125,7 +128,7 @@ h2 {
 }
 
 .mdl-navigation .self-menu .self-link .self-menu--submenu:hover .self-menu--submenu--link:hover a {
-  color: #2196F3;
+  color: #01579B;
 }
 
 .mdl-navigation .self-menu .self-link ul li a {
@@ -138,6 +141,7 @@ h2 {
 }
 
 .mdl-mini-footer {
+  flex-shrink: 0;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -222,4 +226,8 @@ ul li a .image {
 
 .survey {
   width: 100%;
+}
+
+.mdl-layout__content {
+  flex: 1 0 auto;
 }
