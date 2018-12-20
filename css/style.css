@@ -20,6 +20,14 @@ body {
 p {
   line-height: 1.5;
   font-size: 1.1em;
+  margin: 15px 0;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+p:last-of-type {
+  margin-bottom: 0;
 }
 
 h2 {
@@ -91,6 +99,7 @@ h2 {
 .mdl-navigation .self-menu .self-link a {
   text-decoration: none;
   color: #fff;
+  font-weight: 600;
   font-size: 1.2em;
 }
 
@@ -217,9 +226,6 @@ p.lastpara,
 li.lastpara {
   padding-bottom: 2em;
 }
-
-
-
 
 #carte {
   width: 100%;
