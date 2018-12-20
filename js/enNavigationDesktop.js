@@ -34,7 +34,7 @@ let data = `
 </li>
 
 <li class="self-link right">
-    <a href="https://vcernuta.github.io/projet-s1-lens/fr/index.html">Switch to French</a>
+    <a href="https://vcernuta.github.io/projet-s1-lens/fr/index.html"><img src="../../assets/images/FR.ico" alt="Version française" class="icon"></a>
 </li>
 </ul>
 `

@@ -11,7 +11,7 @@ let dataMobile = `
                 <a href="https://vcernuta.github.io/projet-s1-lens/en/liens/presse.html" class="mdl-navigation__link">Newspaper</a>
                 <a class="mdl-navigation__link" href="https://vcernuta.github.io/projet-s1-lens/en/partenaires.html">Partners</a>
                 <a class="mdl-navigation__link" href="https://vcernuta.github.io/projet-s1-lens/en/entreprises.html">Companies</a>
-                <a href="https://vcernuta.github.io/projet-s1-lens/fr/index.html" class="mdl-navigation__link">Switch to French</a>
+                <a href="https://vcernuta.github.io/projet-s1-lens/fr/index.html" class="mdl-navigation__link"><img src="../../assets/images/FR.ico" alt="Version française" class="iconMobile"></a>
             </nav>
 `
 
