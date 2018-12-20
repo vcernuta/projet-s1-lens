@@ -117,11 +117,11 @@ h2 {
 }
 
 .mdl-navigation .self-menu .self-link .self-menu--submenu:hover .self-menu--submenu--link:hover {
-  background-color: #fff;
+  background-color: #039BE5;
 }
 
 .mdl-navigation .self-menu .self-link .self-menu--submenu:hover .self-menu--submenu--link:hover a {
-  color: #01579B;
+  color: #fff;
 }
 
 .mdl-navigation .self-menu .self-link ul li a {
