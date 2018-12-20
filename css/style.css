@@ -242,3 +242,15 @@ li.lastpara {
 .mdl-layout__content {
   flex: 1 0 auto;
 }
+
+ul li a img.icon {
+  width: 60%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  a img.iconMobile {
+      margin-top: 20px;
+      width: 15%;
+  }
+}
