@@ -137,7 +137,7 @@ h2 {
 }
 
 .mdl-navigation .self-menu .self-link .self-menu--submenu:hover .self-menu--submenu--link:hover a {
-  color: #01579B;
+  color: #fff;
 }
 
 .mdl-navigation .self-menu .self-link ul li a {
@@ -247,4 +247,16 @@ li.lastpara {
 
 .mdl-layout__content {
   flex: 1 0 auto;
+}
+
+ul li a img.icon {
+  width: 60%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  a img.iconMobile {
+      margin-top: 20px;
+      width: 15%;
+  }
 }

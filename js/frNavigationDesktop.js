@@ -33,7 +33,7 @@ let frDesktop = `
 </li>
 
 <li class="self-link right">
-    <a href="https://vcernuta.github.io/projet-s1-lens/en/index.html">Switch to English</a>
+    <a href="https://vcernuta.github.io/projet-s1-lens/en/index.html"><img src="../../assets/images/GB.ico" alt="Version anglaise" class="icon"></a>
 </li>
 </ul>
 `
