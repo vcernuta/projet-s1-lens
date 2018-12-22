@@ -2,13 +2,11 @@
 
 html,
 body {
-  height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    position: relative;
-    flex-direction: column;
-    display: flex;
     background-color: #f5f5f5;
 }
 
@@ -69,10 +67,10 @@ h2 {
   position: relative;
   margin-top: -80px;
   margin-bottom: 20px;
-  background-color: #ccc;
   padding: 40px;
   background-color: #fff;
   box-shadow: 0 0 1px 0 #000;
+  clear: both;
 }
 
 .qualities {
@@ -149,6 +147,7 @@ h2 {
   height: 50px;
 }
 
+<<<<<<< HEAD
 .mdl-mini-footer {
   flex-shrink: 0;
   position: relative;
@@ -170,6 +169,19 @@ h2 {
 
 
 ul.mdl-layout--large-screen-only li.article2 {
+=======
+li.article {
+  display: inline-block;
+  margin-right: 3.5em;
+}
+
+ul.mdl-layout--large-screen-only {
+margin-left : -125px;
+}
+
+
+li.article2 {
+>>>>>>> master
   display: inline;
   list-style: none;
 }
@@ -222,8 +234,28 @@ ul li a img.icon {
   width: 60%;
 }
 
+.mdl-mega-footer {
+    background-color: #01579B;
+    position: relative;
+    margin-top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .mdl-mega-footer--heading {
+      font-size: 1.2em;
+  }
+  
+  .mdl-mega-footer--link-list a {
+      color: #ecf0f1;
+  }
 
-
+@media screen and (max-width: 1000px) {
+    .mdl-card {
+        margin-top: 20px;
+    }
+}
 
 @media screen and (max-width: 1000px) {
   a img.iconMobile {
