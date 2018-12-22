@@ -169,62 +169,25 @@ h2 {
 
 
 
-li.article {
-  display: inline-block;
-  margin-right: 3.5em;
-}
-
-ul.mdl-layout--large-screen-only {
-margin-left : -125px;
-}
-
-
-li.article2 {
+ul.mdl-layout--large-screen-only li.article2 {
   display: inline;
   list-style: none;
-  text-decoration: none;
-}
-
-.article2 a {
-  text-align: center;
-}
-
-.article2 a img,
-.article3 a img {
-  width: 100%;
-  margin: 0% auto;
 }
 
 
-li.article3 {
-  margin : 1.5% 1.5% 1.5% -15%;
-  padding-bottom: 1.5em;
+ul.mdl-layout--large-screen-only li.article2 a img {
+  width: 9%;
+  margin-right : 4%;
+  margin-top : 
+}
+
+ul.mdl-layout--small-screen-only li.article3 a img {
+  width: 30%;
+  margin: 7% 25%;
+}
+
+ul.mdl-layout--small-screen-only li.article3{
   list-style: none;
-}
-a.image{
-list-style: none;
-text-decoration: none;
-}
-
-ul li a .image {
-  width: 10%;
-  margin-left: 120px;
-}
-
-.mdl-layout--small-screen-only .article3 a img {
-  width: 50%;
-  text-align: center;
-}
-
-.mdl-layout--small-screen-only .article3{
-  margin-left :auto;
-  margin-right: auto;
-  margin-top: 30px;
-}
-
-p.lastpara,
-li.lastpara {
-  padding-bottom: 2em;
 }
 
 #carte {
