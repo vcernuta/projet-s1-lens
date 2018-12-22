@@ -147,7 +147,6 @@ h2 {
   height: 50px;
 }
 
-<<<<<<< HEAD
 .mdl-mini-footer {
   flex-shrink: 0;
   position: relative;
@@ -169,19 +168,6 @@ h2 {
 
 
 ul.mdl-layout--large-screen-only li.article2 {
-=======
-li.article {
-  display: inline-block;
-  margin-right: 3.5em;
-}
-
-ul.mdl-layout--large-screen-only {
-margin-left : -125px;
-}
-
-
-li.article2 {
->>>>>>> master
   display: inline;
   list-style: none;
 }
@@ -190,7 +176,7 @@ li.article2 {
 ul.mdl-layout--large-screen-only li.article2 a img {
   width: 9%;
   margin-right : 4%;
-  margin-top : 
+  margin-top : 2%;  
 }
 
 ul.mdl-layout--small-screen-only li.article3 a img {
