@@ -17,25 +17,80 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <!-- Title -->
                 <span class="mdl-layout-title">
-                    <img class="logo" src="../../assets/images/LogoBleu-3x1.png" alt="">
+                    <img class="logo" src="../../assets/images/LogoBleu-3x1.png" alt="Logo Départment Informatique">
                 </span>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <script src="../../js/frNavigationDesktop.js"></script>
+                    <ul class="self-menu">
+                        <li class="self-link">
+                            <a href="../../fr/index.html">Accueil</a>
+                            <ul class="self-menu--submenu">
+                                <li class="self-menu--submenu--link">
+                                    <a href="#">Accès enseignants</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="self-link">
+                            <a href="#">Formation</a>
+                            <ul class="self-menu--submenu">
+                                <li class="self-menu--submenu--link"><a href="../../fr/formation/iut.html">L'IUT</a></li>
+                                <li class="self-menu--submenu--link"><a href="../../fr/formation/departement-info.html">Département
+                                        Info</a></li>
+                                <li class="self-menu--submenu--link"><a href="../../fr/formation/programme.html">Programme</a></li>
+                                <li class="self-menu--submenu--link"><a href="../../fr/formation/carte-iut.html">Carte
+                                        des
+                                        DUT Info</a></li>
+                            </ul>
+                        </li>
+                        <li class="self-link">
+                            <a href="#">Liens</a>
+                            <ul class="self-menu--submenu">
+                                <li class="self-menu--submenu--link"><a href="../../fr/liens/temoignages.html">Témoignages</a></li>
+                                <li class="self-menu--submenu--link"><a href="../../fr/liens/presse.html">Revues de
+                                        presse</a></li>
+                            </ul>
+                        </li>
+                        <li class="self-link">
+                            <a href="../../fr/partenaires.html">Partenaires</a>
+                        </li>
+                        <li class="self-link">
+                            <a href="../../fr/entreprises.html">Entreprises</a>
+                        </li>
+
+                        <li class="self-link right">
+                            <a href="../../en/index.html">Switch to English</a>
+                        </li>
+                    </ul>
                 </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <script src="../../js/frNavigationMobile.js"></script>
+            <span class="mdl-layout-title">IUT Informatique</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="../index.html">Accueil</a>
+                <a class="mdl-navigation__link" href="#">Accès enseignant</a>
+                <a class="mdl-navigation__link" href="iut.html">L'IUT</a>
+                <a class="mdl-navigation__link" href="departement-info.html">Département informatique</a>
+                <a class="mdl-navigation__link" href="programme.html">Programme</a>
+                <a class="mdl-navigation__link" href="carte-iut.html">Carte des IUT</a>
+                <a class="mdl-navigation__link" href="../liens/temoignages.html">Témoignages</a>
+                <a class="mdl-navigation__link" href="../liens/presse.html">Articles de presse</a>
+                <a class="mdl-navigation__link" href="../partenaires.html">Partenaires</a>
+                <a class="mdl-navigation__link" href="../entreprises.html">Entreprises</a>
+                <a class="mdl-navigation__link" href="../../en/index.html">Switch to English</a>
+            </nav>
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
-                <img src="../../assets/images/image2.png" alt="" class="image-en-grand">
+                <img src="../../assets/images/image2.png" alt="Image d'illustration code" class="image-en-grand">
                 <div class="mdl-grid">
                     <div class="mdl-cell mdl-cell--2-col mdl-cell--8-col-tablet mdl-cell--2-offset-tablet mdl-cell--2-col-phone"></div>
-                    <div class="mdl-cell mdl-cell--8-col mdl-card mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-                        <iframe id="carte" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+                    <div class="mdl-cell mdl-cell--8-col mdl-card mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-layout--large-screen-only">
+                        <iframe class="carte" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+                        <p><a href="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041">Voir en plein écran</a></p>
+                    </div>
+                    <div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-layout--small-screen-only">
+                        <iframe class="carte" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
                         <p><a href="https://umap.openstreetmap.fr/fr/map/iut-info-de-france_273041">Voir en plein écran</a></p>
                     </div>
                     <div class="mdl-cell mdl-cell--4-col"></div>
@@ -68,8 +123,8 @@
                         <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
                         <h1 class="mdl-mega-footer--heading">Liens</h1>
                         <ul class="mdl-mega-footer--link-list">
-                            <li><a href="../temoignages.html">Témoignages</a></li>
-                            <li><a href="../presse.html">Revues de presse</a></li>
+                            <li><a href="../liens/temoignages.html">Témoignages</a></li>
+                            <li><a href="../liens/presse.html">Revues de presse</a></li>
                         </ul>
                     </div>
                     <div class="mdl-mega-footer--drop-down-section">
@@ -78,7 +133,7 @@
                         <ul class="mdl-mega-footer--link-list">
                             <li><a href="#">Facebook</a></li>
                             <li><a href="#">Twitter</a></li>
-                            <li><a href="">Youtube</a></li>
+                            <li><a href="#">Youtube</a></li>
                         </ul>
                     </div>
                 </div>
