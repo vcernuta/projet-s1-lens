@@ -179,9 +179,8 @@ ul.mdl-layout--small-screen-only li.article3 a img {
   width: 30%;
   margin: 7% 25%;
 }
-
-p.lastpara, li.lastpara {
-  padding-bottom: 2em;
+ul.mdl-layout--small-screen-only li.article3 {
+  list-style: none;
 }
 
 .carte {
